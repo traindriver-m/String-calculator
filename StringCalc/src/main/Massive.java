@@ -3,10 +3,10 @@ package main;
 public class Massive {
     private int k = 0; // счетчик кавычек
 
-    public String[] getMassive(String a) { //создает метод getMassive с типом возвращаемого значения массив и принимаемой строкой в параметре
-        String[] massive = {"", ""};//Присваивает переменной massive значение  ??? (и зачем?)
+    public String[] getMassive(String a) { 
+        String[] massive = {"", ""};
         for (int i = 0; i < a.length(); i++) {
-            char[] simbols = a.toCharArray(); //создал массив символов при помощи toCharArray
+            char[] simbols = a.toCharArray(); 
             if (simbols[i] == '"') {
                 k++;
                 continue;
