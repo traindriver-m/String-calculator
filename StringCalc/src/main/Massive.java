@@ -1,7 +1,7 @@
 package main;
 
 public class Massive {
-    private int k = 0; // счетчик кавычек
+    private int k = 0;
 
     public String[] getMassive(String a) { 
         String[] massive = {"", ""};
